@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iColleague - Virtual Employee Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">👥</span>
+                    <span class="logo-text">iColleague</span>
+                </div>
+                <div class="header-title">Virtual Employee Assistant</div>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <!-- Left Sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-title">Quick Access</div>
+                <nav class="quick-nav">
+                    <button class="nav-btn active" data-category="all">
+                        <span class="nav-icon">🏠</span>
+                        <span class="nav-label">All Services</span>
+                    </button>
+                    <button class="nav-btn" data-category="contacts">
+                        <span class="nav-icon">👤</span>
+                        <span class="nav-label">Contacts</span>
+                    </button>
+                    <button class="nav-btn" data-category="HR">
+                        <span class="nav-icon">📋</span>
+                        <span class="nav-label">HR & Policies</span>
+                    </button>
+                    <button class="nav-btn" data-category="IT">
+                        <span class="nav-icon">💻</span>
+                        <span class="nav-label">IT & Tech</span>
+                    </button>
+                    <button class="nav-btn" data-category="Facilities">
+                        <span class="nav-icon">🏢</span>
+                        <span class="nav-label">Facilities</span>
+                    </button>
+                    <button class="nav-btn" data-category="Finance">
+                        <span class="nav-icon">💰</span>
+                        <span class="nav-label">Finance</span>
+                    </button>
+                </nav>
+
+                <div class="sidebar-divider"></div>
+
+                <div class="sidebar-title">Recent Queries</div>
+                <div class="recent-queries" id="recentQueries">
+                    <div class="empty-state">No recent queries</div>
+                </div>
+            </aside>
+
+            <!-- Chat Area -->
+            <div class="chat-container">
+                <!-- Messages -->
+                <div class="messages-area" id="messagesArea">
+                    <div class="message-group bot-message">
+                        <div class="message-avatar bot">👥</div>
+                        <div class="message-bubble">
+                            <p>Hello! I'm your iColleague Virtual Assistant. How can I help you today?</p>
+                            <p style="font-size: 0.85rem; color: #7c8ba3; margin-top: 8px;">Try asking about:</p>
+                            <ul style="font-size: 0.85rem; color: #7c8ba3; margin: 4px 0; padding-left: 20px;">
+                                <li>Contacts and departments</li>
+                                <li>HR policies and leave</li>
+                                <li>IT and access procedures</li>
+                                <li>Facilities and bookings</li>
+                                <li>Finance and expenses</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Reply Buttons -->
+                <div class="quick-replies" id="quickReplies" style="display: none;">
+                    <!-- Populated dynamically -->
+                </div>
+
+                <!-- Input Area -->
+                <div class="input-area">
+                    <div class="search-box">
+                        <input 
+                            type="text" 
+                            id="userInput" 
+                            placeholder="Ask me anything about company services, policies, or contacts..."
+                            autocomplete="off"
+                        >
+                        <button id="sendBtn" class="send-btn" title="Send message">
+                            <span>➤</span>
+                        </button>
+                    </div>
+                    <div class="input-hint">Press Enter to send | Type your question...</div>
+                </div>
+            </div>
+
+            <!-- Right Panel -->
+            <aside class="right-panel">
+                <div class="panel-header">
+                    <div class="panel-title">Info Panel</div>
+                    <button class="panel-close" id="panelClose">✕</button>
+                </div>
+
+                <div class="panel-content" id="panelContent">
+                    <div class="empty-state">
+                        <p>💡 Ask a question or click on a quick access button to see details here</p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <span class="footer-status">• Status: <span id="statusIndicator">Ready</span></span>
+                <span class="footer-help">Need help? Contact the IT Help Desk: Ext. 3456</span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

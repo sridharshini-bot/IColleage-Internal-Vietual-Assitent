@@ -1,0 +1,82 @@
+[
+  {
+    "id": "emp001",
+    "name": "Sarah Johnson",
+    "role": "HR Manager",
+    "department": "Human Resources",
+    "email": "sarah.johnson@company.com",
+    "phone": "Ext. 4567",
+    "availability": "Available",
+    "expertise": ["HR Policies", "Leave Requests", "Benefits", "Recruitment"]
+  },
+  {
+    "id": "emp002",
+    "name": "Michael Chen",
+    "role": "IT Support Manager",
+    "department": "Information Technology",
+    "email": "michael.chen@company.com",
+    "phone": "Ext. 3456",
+    "availability": "Available",
+    "expertise": ["Network Access", "Software Licenses", "Hardware Support", "VPN Setup"]
+  },
+  {
+    "id": "emp003",
+    "name": "James Wilson",
+    "role": "Finance Director",
+    "department": "Finance",
+    "email": "james.wilson@company.com",
+    "phone": "Ext. 2345",
+    "availability": "In Meeting",
+    "expertise": ["Budget Approvals", "Expense Reports", "Financial Policies", "Cost Control"]
+  },
+  {
+    "id": "emp004",
+    "name": "Emma Rodriguez",
+    "role": "Facilities Manager",
+    "department": "Facilities & Admin",
+    "email": "emma.rodriguez@company.com",
+    "phone": "Ext. 5678",
+    "availability": "Available",
+    "expertise": ["Meeting Rooms", "Parking", "Office Access", "Maintenance Requests"]
+  },
+  {
+    "id": "emp005",
+    "name": "David Kumar",
+    "role": "Security Officer",
+    "department": "Information Technology",
+    "email": "david.kumar@company.com",
+    "phone": "Ext. 6789",
+    "availability": "Available",
+    "expertise": ["Access Control", "Security Policies", "ID Badges", "Incident Reporting"]
+  },
+  {
+    "id": "emp006",
+    "name": "Lisa Thompson",
+    "role": "Payroll Specialist",
+    "department": "Human Resources",
+    "email": "lisa.thompson@company.com",
+    "phone": "Ext. 7890",
+    "availability": "Available",
+    "expertise": ["Payroll Issues", "Tax Documents", "Salary Adjustments", "Direct Deposit"]
+  },
+  {
+    "id": "emp007",
+    "name": "Robert Martinez",
+    "role": "System Administrator",
+    "department": "Information Technology",
+    "email": "robert.martinez@company.com",
+    "phone": "Ext. 8901",
+    "availability": "Available",
+    "expertise": ["Email Setup", "System Access", "Hardware Allocation", "Technical Support"]
+  },
+  {
+    "id": "emp008",
+    "name": "Amanda Brooks",
+    "role": "Compliance Officer",
+    "department": "Admin & Compliance",
+    "email": "amanda.brooks@company.com",
+    "phone": "Ext. 9012",
+    "availability": "Available",
+    "expertise": ["Policy Compliance", "Training Requirements", "Document Management", "Audits"]
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "policy001",
+    "title": "Annual Leave Policy",
+    "category": "Leave",
+    "description": "Guidelines for taking annual leave",
+    "details": [
+      "Employees are entitled to 20 days of annual leave per year",
+      "Leave accrues monthly and unused leave carries over to next year (max 5 days)",
+      "Must notify manager at least 2 weeks in advance",
+      "Submit request through HR Portal for approval",
+      "Public holidays are in addition to annual leave",
+      "Final pay includes unused leave balance upon termination"
+    ]
+  },
+  {
+    "id": "policy002",
+    "title": "Sick Leave Policy",
+    "category": "Leave",
+    "description": "SickLeave entitlements and procedures",
+    "details": [
+      "10 days of paid sick leave per year",
+      "Notify manager and HR within 2 hours of absence",
+      "Medical certificate required for absences exceeding 3 consecutive days",
+      "Unused sick leave does not carry over",
+      "Compassionate leave (3 days) available for family illness",
+      "Contact HR Help Desk for reporting absence"
+    ]
+  },
+  {
+    "id": "policy003",
+    "title": "Parental Leave Policy",
+    "category": "Leave",
+    "description": "Support for new parents",
+    "details": [
+      "Maternity leave: 4 months paid leave after delivery",
+      "Paternity leave: 2 weeks paid leave",
+      "Job protected during approved leave period",
+      "Apply minimum 8 weeks in advance",
+      "Flexible return-to-work options available",
+      "Breastfeeding breaks provided for nursing mothers"
+    ]
+  },
+  {
+    "id": "policy004",
+    "title": "Remote Work Policy",
+    "category": "Work Arrangements",
+    "description": "Guidance for working from home",
+    "details": [
+      "Employees may work from home up to 3 days per week",
+      "Manager approval required for remote work arrangement",
+      "Must maintain secure home workspace",
+      "Required attendance on team collaboration days",
+      "VPN access must be enabled for remote work",
+      "Report any security incidents immediately"
+    ]
+  },
+  {
+    "id": "policy005",
+    "title": "Flexible Working Hours",
+    "category": "Work Arrangements",
+    "description": "Core hours and flexible scheduling",
+    "details": [
+      "Core hours are 10:00 AM to 3:00 PM daily",
+      "Flexible start times between 7:00 AM to 10:00 AM",
+      "Flexible end times between 3:00 PM to 6:00 PM",
+      "Total hours per week must be 40 hours",
+      "Submit flexible hours request to manager",
+      "Schedule must align with team collaboration needs"
+    ]
+  },
+  {
+    "id": "policy006",
+    "title": "Dress Code Policy",
+    "category": "Workplace Standards",
+    "description": "Professional appearance guidelines",
+    "details": [
+      "Standard business attire required Monday to Thursday",
+      "Casual Friday: neat jeans and company polo/t-shirt acceptable",
+      "Client-facing roles must maintain professional appearance daily",
+      "No offensive graphics, torn clothing, or inappropriate attire",
+      "Safety equipment required in warehouse/facilities areas",
+      "Exceptions approved on case-by-case basis"
+    ]
+  },
+  {
+    "id": "policy007",
+    "title": "Code of Conduct",
+    "category": "Compliance",
+    "description": "Expected professional behavior",
+    "details": [
+      "Treat all colleagues with respect and dignity",
+      "Zero tolerance for harassment or discrimination",
+      "Maintain confidentiality of company information",
+      "Use company resources for business purposes only",
+      "Report unethical behavior through proper channels",
+      "Violations may result in disciplinary action up to termination"
+    ]
+  },
+  {
+    "id": "policy008",
+    "title": "Data Security & Confidentiality",
+    "category": "Security",
+    "description": "Protection of company and customer data",
+    "details": [
+      "All employees must sign NDA upon hiring",
+      "Sensitive data must be encrypted and password-protected",
+      "Do not share passwords or access credentials",
+      "Report data breaches immediately to IT Security",
+      "Personal devices must have security software installed",
+      "Proper disposal of confidential documents required"
+    ]
+  },
+  {
+    "id": "policy009",
+    "title": "Benefits Overview",
+    "category": "Benefits",
+    "description": "Employee benefits package",
+    "details": [
+      "Comprehensive health insurance (medical, dental, vision)",
+      "Life insurance (3x annual salary)",
+      "Pension plan with company matching (5%)",
+      "Professional development budget (£1,500 annually)",
+      "Gym membership subsidy (50%)",
+      "Employee discount program (10-25% on selected partners)"
+    ]
+  },
+  {
+    "id": "policy010",
+    "title": "Expense Reimbursement Policy",
+    "category": "Finance",
+    "description": "Guidelines for business expense claims",
+    "details": [
+      "Submit expenses within 30 days of incurrence",
+      "Original receipts required for all claims",
+      "Pre-approval needed for expenses over £500",
+      "Personal expenses not reimbursed",
+      "Hotel stays max £150 per night (excluding business travel)",
+      "Meal allowances: £30/day (UK), £40/day (International)"
+    ]
+  }
+]
